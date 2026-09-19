@@ -6,11 +6,9 @@
     <meta name="description" content="Demonstrates CSS layout" />
     <meta name="keywords" content="HTML5, CSS layout" />
     <meta name="author" content="A Lecturer" />
-
-    <Link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
     <title>CSS Layout</title>
-    <!-- References to external CSS files -->
-
 
 </head>
 <!-- This is a comment. Indenting child elements makes the markup much more readable -->
@@ -37,10 +35,10 @@
 
         <article>
             <h2>HTML5 Basic Elements</h2>
-            <aside>
-                <p>HTML page without CCS styling looks a bit boring!!</p>
-                <p>We will give this aside a border, margin, padding and background graphic with CSS. </p>
-                <p>We will will also float it to the right and set its width &#9786;.</p>
+            <aside aria-labelledby="aside_heading">
+                <h2 id="aside_heading">CSS layout information</h2>
+                <p>An HTML page without CSS styling can look a little plain.</p>
+                <p>This aside uses a border, margin, padding and background graphic.</p>
             </aside>
             <section id="headings">
                 <h2>Headings and Paragraphs </h2>
@@ -143,9 +141,8 @@
             <section id="hyperlinks">
                 <h2>Hyperlinks</h2>
                 <p><a href="https://swinburne.instructure.com/" title="This takes you to Blackboard"> This is a link to
-                        an
-                        external site Blackboard</a></p>
-                <p>This is a link to the <a href="#list">List Section </a> of the Web page</p>
+                        an external site Blackboard</a></p>
+                <p>This is a link to the <a href="#lists">List Section </a> of the Web page</p>
                 <p>This is a link using <a href="mailto:someone@swin.edu.au"> email</a> rather than an http protocol</p>
             </section>
             <section id="images">
@@ -153,10 +150,11 @@
                 <figure>
                     <figcaption>This thumbnail image is used as a hyperlink to a larger version of the image
                     </figcaption>
-                    <a href="styles/images/mycat.jpg"> <img src="styles/images/mycat_small.jpg" alt="Photo of my cat"
-                            title="Filesize 222kb " /></a>
+                    <a href="styles/images/mycat.jpg"> <img src="styles/images/mycat_small.jpg"
+                            alt="My cat looking towards the camera" title="Filesize 222kb " /></a>
                 </figure>
             </section>
+            <!-- added ethical features -->
             <section id="responsible_design">
                 <h2>Privacy and responsible design</h2>
 
@@ -203,7 +201,7 @@
     <footer>
         <p>COS10011/COS60004/COS60007 CWA</p>
         <p>&#169; Swinburne University of Technology</p>
-        <p>Lab05 - Task 1</p>
+        <p>Week 06 – Accessibility and Web Ethics</p>
     </footer>
 </body>
 
