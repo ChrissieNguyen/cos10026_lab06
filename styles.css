@@ -190,3 +190,24 @@ footer p:last-child {
     float: right;
     text-align: right;
 }
+
+#responsible_design,
+#reflection_questions {
+    clear: both;
+    margin: 1em 0;
+    padding: 1em;
+}
+
+#reflection_questions {
+    border: 2px solid teal;
+    border-radius: 10px;
+    background-color: #f4ffff;
+}
+
+#reflection_questions h3 {
+    color: #006666;
+}
+
+#reflection_questions li {
+    margin-bottom: 0.5em;
+}
